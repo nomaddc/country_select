@@ -83,7 +83,7 @@ module CountrySelect
           if formatted_country.is_a?(Array)
             formatted_country
           else
-            formatted_country
+            [formatted_country, formatted_country]
           end
 
         end
